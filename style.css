@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.navbar a{
+    /* list-style-type: none; */
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+section img{
+    width: 100%;
+    min-height: 100vh;
+}
